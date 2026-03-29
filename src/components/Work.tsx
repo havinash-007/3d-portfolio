@@ -8,7 +8,7 @@ const projects = [
     title: "ScraftX-AI-LLM",
     category: "AI-Powered LLM Application",
     description:
-      "AI-powered LLM-based project focused on intelligent interactions and modern GenAI workflows.",
+      "AI-powered marketing assistant for artisans and crafts people focused on intelligent interactions and modern GenAI workflows.",
     tools: ["Python", "GenAI", "LLM", "API"],
     github: "https://github.com/saagnik23/ScraftX-AI-LLM",
   },
@@ -16,7 +16,7 @@ const projects = [
     title: "BasicChatBot",
     category: "Conversational AI",
     description:
-      "Chatbot project demonstrating conversational logic and foundational AI interaction patterns.",
+      "Built a basic chatbot to understand conversational flow, user input handling, and response logic.",
     tools: ["Python", "NLP", "AI", "Automation"],
     github: "https://github.com/saagnik23/BasicChatBot",
   },
@@ -35,6 +35,22 @@ const projects = [
       "Python project for stock portfolio tracking, data handling, and financial logic simulation.",
     tools: ["Python", "Data", "Finance", "API"],
     github: "https://github.com/saagnik23/StockPortfolioTracker",
+  },
+  {
+    title: "Automated-Social-Media-Post",
+    category: "Automation Script",
+    description:
+      "Utility designed to automate the scheduling and posting of social media content via integrations.",
+    tools: ["Automation", "API", "Scripting"],
+    github: "https://github.com/saagnik23/Automated-Social-Media-Post",
+  },
+  {
+    title: "Daily-News-Feed",
+    category: "Data Aggregation",
+    description:
+      "Application built to automatically fetch, parse, and organize daily news feeds from various external sources.",
+    tools: ["Data", "API", "Scripting"],
+    github: "https://github.com/saagnik23/Daily-News-Feed",
   },
 ];
 
