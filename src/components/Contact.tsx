@@ -8,30 +8,26 @@ const Contact = () => {
         <h3>Contact</h3>
         <div className="contact-flex">
           <div className="contact-box">
-            <h4>Connect</h4>
+            <h4>Get in Touch</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
-                target="_blank"
-                rel="noreferrer"
+                href="mailto:saagnikbucky@gmail.com"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                saagnikbucky@gmail.com
               </a>
             </p>
+            <h4>Location</h4>
+            <p>Bengaluru, Karnataka, India</p>
             <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
-            </p>
-            <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
+              B.Tech CSE — NIAT (S-VYASA University) — 2025–2029
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://github.com/saagnik23"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -40,7 +36,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://linkedin.com/in/saagnik-dey-99038332b"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -49,27 +45,25 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.youtube.com/@Leftbraincoder"
-              target="_blank"
-              rel="noreferrer"
+              href="mailto:saagnikbucky@gmail.com"
               data-cursor="disable"
               className="contact-social"
             >
-              YouTube <MdArrowOutward />
+              Email <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/leftbraincoder/"
+              href="/Saagnik_Dey_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
-              className="contact-social"
+              className="contact-social contact-resume"
             >
-              Instagram <MdArrowOutward />
+              Download Resume <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Designed &amp; Built <br /> by <span>Saagnik Dey</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

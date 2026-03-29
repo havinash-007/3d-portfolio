@@ -133,6 +133,7 @@ export function setCharTimeline(
 }
 
 export function setAllTimeline() {
+  // Career/Experience timeline
   const careerTimeline = gsap.timeline({
     scrollTrigger: {
       trigger: ".career-section",
@@ -149,7 +150,6 @@ export function setAllTimeline() {
       { maxHeight: "100%", duration: 0.5 },
       0
     )
-
     .fromTo(
       ".career-timeline",
       { opacity: 0 },
@@ -188,4 +188,44 @@ export function setAllTimeline() {
       0
     );
   }
+
+  // Education timeline
+  const educationTimeline = gsap.timeline({
+    scrollTrigger: {
+      trigger: ".education-section",
+      start: "top 30%",
+      end: "100% center",
+      scrub: true,
+      invalidateOnRefresh: true,
+    },
+  });
+  educationTimeline
+    .fromTo(
+      ".education-timeline",
+      { maxHeight: "10%" },
+      { maxHeight: "100%", duration: 0.5 },
+      0
+    )
+    .fromTo(
+      ".education-timeline",
+      { opacity: 0 },
+      { opacity: 1, duration: 0.1 },
+      0
+    )
+    .fromTo(
+      ".education-info-box",
+      { opacity: 0 },
+      { opacity: 1, stagger: 0.1, duration: 0.5 },
+      0
+    )
+    .fromTo(
+      ".education-dot",
+      { animationIterationCount: "infinite" },
+      {
+        animationIterationCount: "1",
+        delay: 0.3,
+        duration: 0.1,
+      },
+      0
+    );
 }

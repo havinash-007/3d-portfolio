@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@300;400;500;600&display=swap");
 
 :root {
-  font-family: "Geist", sans-serif;
-
+  font-family: "Inter", "Geist", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   line-height: 1.5;
   scroll-behavior: smooth;
-  color-scheme: light dark;
+  color-scheme: dark;
   color: #eae5ec;
   background-color: var(--backgroundColor);
 
@@ -18,10 +17,27 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
+
+  /* Core palette */
   --accentColor: #5eead4;
+  --accentColor2: #60a5fa;
+  --accentGlow: rgba(94, 234, 212, 0.25);
+  --accentGlow2: rgba(96, 165, 250, 0.2);
   --backgroundColor: #0a0e17;
+  --surfaceColor: rgba(255, 255, 255, 0.04);
+  --borderColor: rgba(255, 255, 255, 0.08);
+  --textMuted: rgba(234, 229, 236, 0.6);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(15, 23, 42, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 20px;
+
   --vh: 100vh;
   --vh: 100svh;
+
+  /* Code font */
+  --font-mono: "JetBrains Mono", monospace;
 }
 
 h1,
@@ -30,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Geist", sans-serif;
+  font-family: "Inter", "Geist", sans-serif;
 }
 
 body {
@@ -122,6 +138,48 @@ body {
   left: 0;
   font-weight: 400;
   text-transform: uppercase;
+  background: linear-gradient(180deg, #ffffff 0%, #5eead4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #5eead4 0%, #60a5fa 50%, #a78bfa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Glass card utility */
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(var(--glass-blur));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  border-radius: 16px;
+}
+
+/* Neon glow utility */
+.neon-glow {
+  box-shadow: 0 0 20px var(--accentGlow), 0 0 60px var(--accentGlow2);
+}
+
+/* Tech badge utility */
+.tech-badge {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 12px;
+  background: rgba(94, 234, 212, 0.08);
+  border: 1px solid rgba(94, 234, 212, 0.2);
+  border-radius: 20px;
+  color: var(--accentColor);
+  letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 
 @media screen and (min-width: 768px) {

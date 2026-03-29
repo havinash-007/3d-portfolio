@@ -1,36 +1,40 @@
 import { useState, useCallback } from "react";
 import "./styles/Work.css";
-import WorkImage from "./WorkImage";
+import { FaGithub } from "react-icons/fa6";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "ScraftX-AI-LLM",
+    category: "AI-Powered LLM Application",
+    description:
+      "AI-powered LLM-based project focused on intelligent interactions and modern GenAI workflows.",
+    tools: ["Python", "GenAI", "LLM", "API"],
+    github: "https://github.com/saagnik23/ScraftX-AI-LLM",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    title: "BasicChatBot",
+    category: "Conversational AI",
+    description:
+      "Chatbot project demonstrating conversational logic and foundational AI interaction patterns.",
+    tools: ["Python", "NLP", "AI", "Automation"],
+    github: "https://github.com/saagnik23/BasicChatBot",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
+    title: "Hangmanpy",
+    category: "Python Game",
+    description:
+      "Python-based Hangman game showcasing clean logic building, OOP principles, and code structure.",
+    tools: ["Python", "OOP", "CLI", "Logic"],
+    github: "https://github.com/saagnik23/Hangmanpy",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "StockPortfolioTracker",
+    category: "Financial Data Application",
+    description:
+      "Python project for stock portfolio tracking, data handling, and financial logic simulation.",
+    tools: ["Python", "Data", "Finance", "API"],
+    github: "https://github.com/saagnik23/StockPortfolioTracker",
   },
 ];
 
@@ -61,10 +65,10 @@ const Work = () => {
   }, [currentIndex, goToSlide]);
 
   return (
-    <div className="work-section" id="work">
+    <div className="work-section" id="projects">
       <div className="work-container section-container">
         <h2>
-          My <span>Work</span>
+          Featured <span>Projects</span>
         </h2>
 
         <div className="carousel-wrapper">
@@ -106,18 +110,38 @@ const Work = () => {
                         <p className="carousel-category">
                           {project.category}
                         </p>
+                        <p className="carousel-description">
+                          {project.description}
+                        </p>
                         <div className="carousel-tools">
-                          <span className="tools-label">Tools & Features</span>
-                          <p>{project.tools}</p>
+                          <span className="tools-label">Tech Stack</span>
+                          <div className="carousel-badges">
+                            {project.tools.map((tool, i) => (
+                              <span className="tech-badge" key={i}>
+                                {tool}
+                              </span>
+                            ))}
+                          </div>
                         </div>
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="project-github-link"
+                          data-cursor="disable"
+                        >
+                          <FaGithub /> View on GitHub
+                        </a>
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
-                      <WorkImage
-                        image={project.image}
-                        alt={project.title}
-                        link={project.link}
-                      />
+                      <div className="project-visual" data-project={index}>
+                        <div className="project-visual-icon">
+                          <span className="project-visual-number">0{index + 1}</span>
+                          <span className="project-visual-name">{project.title}</span>
+                        </div>
+                        <div className="project-visual-glow"></div>
+                      </div>
                     </div>
                   </div>
                 </div>
