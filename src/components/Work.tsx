@@ -5,52 +5,36 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "ScraftX-AI-LLM",
-    category: "AI-Powered LLM Application",
+    title: "Karyo V2",
+    category: "Brand studio website rebuild",
     description:
-      "AI-powered marketing assistant for artisans and crafts people focused on intelligent interactions and modern GenAI workflows.",
-    tools: ["Python", "GenAI", "LLM", "API"],
-    github: "https://github.com/saagnik23/ScraftX-AI-LLM",
+      "A complete redesign and rebuild of the Karyo brand studio website focusing on brand identity and strategy.",
+    tools: ["Strategy", "Design", "Web", "Creative"],
+    github: "https://linktr.ee/Karyo",
   },
   {
-    title: "BasicChatBot",
-    category: "Conversational AI",
+    title: "Mentor Match",
+    category: "Mentorship platform",
     description:
-      "Built a basic chatbot to understand conversational flow, user input handling, and response logic.",
-    tools: ["Python", "NLP", "AI", "Automation"],
-    github: "https://github.com/saagnik23/BasicChatBot",
+      "A dedicated platform seamlessly connecting mentors and mentees to foster growth and learning.",
+    tools: ["Web", "Fullstack", "Platform"],
+    github: "https://github.com/havinash-007",
   },
   {
-    title: "Hangmanpy",
-    category: "Python Game",
+    title: "Whisper Mail",
+    category: "Anonymous email tool",
     description:
-      "Python-based Hangman game showcasing clean logic building, OOP principles, and code structure.",
-    tools: ["Python", "OOP", "CLI", "Logic"],
-    github: "https://github.com/saagnik23/Hangmanpy",
+      "A secure and anonymous email tool designed to protect user identity while ensuring message delivery.",
+    tools: ["Security", "API", "Web"],
+    github: "https://github.com/havinash-007",
   },
   {
-    title: "StockPortfolioTracker",
-    category: "Financial Data Application",
+    title: "Resume Checker",
+    category: "Resume analysis tool",
     description:
-      "Python project for stock portfolio tracking, data handling, and financial logic simulation.",
-    tools: ["Python", "Data", "Finance", "API"],
-    github: "https://github.com/saagnik23/StockPortfolioTracker",
-  },
-  {
-    title: "Automated-Social-Media-Post",
-    category: "Automation Script",
-    description:
-      "Utility designed to automate the scheduling and posting of social media content via integrations.",
-    tools: ["Automation", "API", "Scripting"],
-    github: "https://github.com/saagnik23/Automated-Social-Media-Post",
-  },
-  {
-    title: "Daily-News-Feed",
-    category: "Data Aggregation",
-    description:
-      "Application built to automatically fetch, parse, and organize daily news feeds from various external sources.",
-    tools: ["Data", "API", "Scripting"],
-    github: "https://github.com/saagnik23/Daily-News-Feed",
+      "An automated tool for analyzing resumes to improve quality, formatting, and keyword matching.",
+    tools: ["AI", "Parsing", "Tooling"],
+    github: "https://github.com/havinash-007",
   },
 ];
 

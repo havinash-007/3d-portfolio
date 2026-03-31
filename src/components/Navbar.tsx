@@ -47,16 +47,16 @@ const Navbar = () => {
     <>
       <div className="header">
         <a href="/#" className="navbar-title" data-cursor="disable">
-          SD
+          HG
         </a>
         <a
-          href="mailto:saagnikbucky@gmail.com"
+          href="mailto:gangisettyhavinash@gmail.com"
           className="navbar-connect"
           data-cursor="disable"
           target="_blank"
           rel="noreferrer"
         >
-          saagnikbucky@gmail.com
+          gangisettyhavinash@gmail.com
         </a>
         <button
           className={`hamburger ${menuOpen ? "hamburger-active" : ""}`}

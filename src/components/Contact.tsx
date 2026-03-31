@@ -11,23 +11,23 @@ const Contact = () => {
             <h4>Get in Touch</h4>
             <p>
               <a
-                href="mailto:saagnikbucky@gmail.com"
+                href="mailto:gangisettyhavinash@gmail.com"
                 data-cursor="disable"
               >
-                saagnikbucky@gmail.com
+                gangisettyhavinash@gmail.com
               </a>
             </p>
             <h4>Location</h4>
             <p>Bengaluru, Karnataka, India</p>
             <h4>Education</h4>
             <p>
-              B.Tech CSE — NIAT (S-VYASA University) — 2025–2029
+              B.Tech CSE — NIAT — 2024–2028
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/saagnik23"
+              href="https://github.com/havinash-007"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -36,7 +36,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://linkedin.com/in/saagnik-dey-99038332b"
+              href="https://linkedin.com/in/havinash-gangisetty-4a5522311"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -45,14 +45,14 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="mailto:saagnikbucky@gmail.com"
+              href="mailto:gangisettyhavinash@gmail.com"
               data-cursor="disable"
               className="contact-social"
             >
               Email <MdArrowOutward />
             </a>
             <a
-              href="/Saagnik_Dey_Resume.pdf"
+              href="#resume"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -63,7 +63,7 @@ const Contact = () => {
           </div>
           <div className="contact-box">
             <h2>
-              Designed &amp; Built <br /> by <span>Saagnik Dey</span>
+              Designed &amp; Built <br /> by <span>Havinash Gangisetty</span>
             </h2>
             <h5>
               <MdCopyright /> 2026

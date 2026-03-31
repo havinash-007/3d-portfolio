@@ -16,27 +16,27 @@ const Education = () => {
             <div className="education-info-in">
               <div className="education-role">
                 <h4>B.Tech in CSE</h4>
-                <h5>NIAT · S-VYASA University</h5>
+                <h5>NIAT (NxtWave Institute of Advanced Technologies)</h5>
               </div>
-              <h3>2025–29</h3>
+              <h3>2024–28</h3>
             </div>
             <p>
               Currently pursuing Bachelor of Technology in Computer Science
-              Engineering. Focused on AI/ML, Data Structures, and modern
-              software development.
+              Engineering. Active President of the Entrepreneurship &amp; Development
+              Club and Ideathon Winner at NIAT.
             </p>
           </div>
           <div className="education-info-box">
             <div className="education-info-in">
               <div className="education-role">
-                <h4>Higher Secondary</h4>
-                <h5>Dalmia Vidya Mandir</h5>
+                <h4>Certification & Grants</h4>
+                <h5>IIT Kanpur & YC</h5>
               </div>
-              <h3>2023</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Completed higher secondary education with a focus on Science
-              and Mathematics, building a strong foundation for engineering.
+              Completed IIT Kanpur × MeitY Entrepreneurship Essentials Certificate. 
+              Applied for YC Startup School India and actively participating in hackathons.
             </p>
           </div>
         </div>

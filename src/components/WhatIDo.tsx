@@ -87,21 +87,21 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>AI &amp; GENERATIVE AI</h3>
-              <h4>Building Intelligent Solutions</h4>
+              <h3>BRAND IDENTITY &amp; STRATEGY</h3>
+              <h4>Creative Storytelling Websites</h4>
               <p>
-                Exploring and building with Generative AI, LLMs, and prompt
-                engineering — from chatbots and AI workflows to intelligent
-                automation and machine learning fundamentals.
+                Leading the Karyo brand studio as Co-Founder, focusing on brand identity,
+                creative storytelling, and turning ideas into revenue through powerful
+                digital experiences.
               </p>
               <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Generative AI</div>
-                <div className="what-tags">Prompt Engineering</div>
-                <div className="what-tags">Machine Learning</div>
-                <div className="what-tags">LLMs</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">Data Structures</div>
+                <div className="what-tags">Brand Identity</div>
+                <div className="what-tags">Creative Strategy</div>
+                <div className="what-tags">Storytelling</div>
+                <div className="what-tags">UI/UX Design</div>
+                <div className="what-tags">Figma</div>
+                <div className="what-tags">Wireframing</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -125,12 +125,11 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>FULL-STACK DEV</h3>
-              <h4>Web Apps &amp; Scalable Software</h4>
+              <h3>WEB DEVELOPMENT</h3>
+              <h4>Modern Web Apps &amp; Scalable Software</h4>
               <p>
-                Building modern web applications with React, JavaScript, and
-                Python — from frontend interfaces to backend APIs, databases,
-                and deployment workflows.
+                Building modern, robust web applications using industry-leading tools
+                to power cutting-edge digital experiences and full-stack solutions.
               </p>
               <h5>Skillset &amp; tools</h5>
               <div className="what-content-flex">
@@ -138,8 +137,8 @@ const WhatIDo = () => {
                 <div className="what-tags">JavaScript</div>
                 <div className="what-tags">HTML &amp; CSS</div>
                 <div className="what-tags">Vite</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">MySQL</div>
+                <div className="what-tags">Three.js</div>
+                <div className="what-tags">GSAP</div>
                 <div className="what-tags">Git &amp; GitHub</div>
               </div>
               <div className="what-arrow"></div>

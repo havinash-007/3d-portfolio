@@ -60,7 +60,7 @@ const SocialIcons = () => {
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
           <a
-            href="https://github.com/saagnik23"
+            href="https://github.com/havinash-007"
             target="_blank"
             rel="noreferrer"
           >
@@ -69,7 +69,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="https://linkedin.com/in/saagnik-dey-99038332b"
+            href="https://linkedin.com/in/havinash-gangisetty-4a5522311"
             target="_blank"
             rel="noreferrer"
           >
@@ -78,7 +78,7 @@ const SocialIcons = () => {
         </span>
         <span>
           <a
-            href="mailto:saagnikbucky@gmail.com"
+            href="mailto:gangisettyhavinash@gmail.com"
             rel="noreferrer"
           >
             <MdEmail />
@@ -87,7 +87,7 @@ const SocialIcons = () => {
       </div>
       <a
         className="resume-button"
-        href="/Saagnik_Dey_Resume.pdf"
+        href="#resume"
         target="_blank"
         rel="noreferrer"
       >
